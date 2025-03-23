@@ -1,9 +1,6 @@
 library(AnnotationDbi)
 library(org.Hs.eg.db)#基因注释包
 library(clusterProfiler)#富集包
-library(dplyr)
-library(ggplot2)#画图包
-library(biomaRt)
 
 # 读取CSV文件
 file_path <- "C:/Users/Lamarck/Desktop/UP_genes_ENSEMBL_ENTREZID.csv"
